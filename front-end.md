@@ -4,9 +4,9 @@ You can submit all the answers to this assignment in a single repository (or as 
 
 ## 1. About you
 
-I haven't worked commercially with **Vue.js** or **AngularJS**, but I worked for two years with another modern framework, **Meteor JS**. Our company developed a time tracking solution for use in the field. We developed an online admin dashboard as well as a hybrid mobile app for use on the field.
+I haven't worked commercially with **Vue.js** or **AngularJS**, but I worked for two years with another modern framework, **Meteor JS**. Our company developed a time tracking solution for use in the field. We developed an online admin dashboard as well as a hybrid mobile app for use on the field.  
 Prior to that I did basic web development for a college, developed a small app to receive a grant and even had a short stint developing scripts for an automation system. That last one rekindled my love for web development and set me on track for my current career as a **Front-End Developer** with a bit of Full-Stack sprinkled in.
-Currently, I'm back to the basics working with **jQuery** on an online document collaboration tool.
+Currently, I'm back to the basics working with **jQuery** on an online document collaboration tool.  
 
 ## 2. General
 
