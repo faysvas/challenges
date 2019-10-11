@@ -12,13 +12,13 @@ Currently, I'm back to the basics working with **jQuery** on an online document 
 
 ##### 2.1. What kind of front end projects do you enjoy working on? Why?
 
-I enjoy working on projects that are well structured and well-tested because you can do a lot of changes quickly and easily and keep up with the ever changing eco-system of startups. I think it's important for projects to not fall victim to the [broken window theory](https://en.wikipedia.org/wiki/Broken_windows_theory).
-I lean most towards the engineering part of Front-End Development, so I like working on Web-Apps with a lot of JS under the hood vs Web-pages.
-That being said, I also like delivering a beautiful experience to users, but I am not good enough of a designer to create my own design mockups and I mostly copy paste pretty CSS from Codepen.
+I enjoy working on projects that are well structured and well-tested because you can do a lot of changes quickly and easily and keep up with the ever changing eco-system of startups. I think it's important for projects to not fall victim to the [broken window theory](https://en.wikipedia.org/wiki/Broken_windows_theory).  
+I lean most towards the engineering part of Front-End Development, so I like working on Web-Apps with a lot of JS under the hood vs Web-pages.  
+That being said, I also like delivering a beautiful experience to users, but I am not good enough of a designer to create my own design mockups and I mostly copy paste pretty CSS from Codepen.  
 
 ##### 2.2. Which are your favorite features of HTML5? How have you used them before?
 
-I think the semantic elements(`<footer>`, `<header>`, `<main>`, etc) were a much needed addition and necessary for structuring content.
+I think the semantic elements(`<footer>`, `<header>`, `<main>`, etc) were a much needed addition and necessary for structuring content.  
 I also love the new input types and their built-in capability for input formatting and validation.
 `<canvas>` is great for games, I have used it in a small toy project https://codepen.io/faysvas/pen/yaApdE
 
@@ -56,13 +56,13 @@ It may be better to user `createElement` because it preserves existing reference
 
 -   **Two-way data binding** means that the UI and model are connected and update each other automatically.
 
-Two-way data binding might seem more convenient (and require less code), but that is probably only true for connected elements in small, self-contained components. Two-way data binding between multiple components may cause confusion and be more difficult to debug, especially in larger applications.
+Two-way data binding might seem more convenient (and require less code), but that is probably only true for connected elements in small, self-contained components. Two-way data binding between multiple components may cause confusion and be more difficult to debug, especially in larger applications.  
 If you have two-way data binding between numerous components in a large application, you can not be sure about the state in any given moment. Whereas with one-way data flow you just need to check your state object.
 
 ##### 2.5. Why is asynchronous programming important in JavaScript?
 
-**JavaScript** is mainly used for highly reactive web apps that include a lot of user interaction and run on all sorts of devices. The web involves a lot of delay and waiting (especially when you have a slow connection. With asynchronous programming, script execution doesn't need to be blocked while you're waiting for something that takes a lot of time, like a server or user response.
-So asynchronous programming allows you, for example, to fetch and display one paragraph of content for your user to read while the rest of the content is loading.
+**JavaScript** is mainly used for highly reactive web apps that include a lot of user interaction and run on all sorts of devices. The web involves a lot of delay and waiting (especially when you have a slow connection. With asynchronous programming, script execution doesn't need to be blocked while you're waiting for something that takes a lot of time, like a server or user response.  
+So asynchronous programming allows you, for example, to fetch and display one paragraph of content for your user to read while the rest of the content is loading.  
 JavaScript is a synchronous, single-threaded language by default but various browser APIs provide us with the much needed asynchronicity.
 
 ## 3. Styling
