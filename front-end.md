@@ -12,7 +12,8 @@ Currently, I'm back to the basics working with **jQuery** on an online document 
 
 ##### 2.1. What kind of front end projects do you enjoy working on? Why?
 
-I enjoy working on projects that are well structured and well-tested because you can do a lot of changes quickly and easily and keep up with the ever changing eco-system of startups. I think it's important for projects to not fall victim to the [broken window theory](https://en.wikipedia.org/wiki/Broken_windows_theory).  
+I enjoy working on projects that are well structured and well-tested (I don't always practice what I preach, but I try my best...) because you can do a lot of changes quickly and easily and keep up with the ever changing eco-system of startups. I think it's important for projects to not fall victim to the [broken window theory](https://en.wikipedia.org/wiki/Broken_windows_theory). 
+
 I lean most towards the engineering part of Front-End Development, so I like working on Web-Apps with a lot of JS under the hood vs Web-pages.  
 That being said, I also like delivering a beautiful experience to users, but I am not good enough of a designer to create my own design mockups and I mostly copy paste pretty CSS from Codepen.  
 
