@@ -15,7 +15,7 @@ npm start
 npm run build
 ```
 
-With the **book server** and **project server** still running, you can run some tests.
+### With the **book server** and **project server** still running, you can run some tests.
 
 I used **Cypress** for **E2E** tests. You can start them up with
 
