@@ -154,37 +154,3 @@ Returns a list of books, with their info.
 #### http://localhost:3000/books/SLUG
 
 Returns the book information for the given SLUG (404 otherwise).
-
-## Instructions for Q4
-
-### SPA
-
-The project is located in `q4/vuejs-books`.
-
-Install dependencies with
-
-```bash
-npm install
-```
-
-and start the app with
-
-```bash
-npm start
-```
-
-## Tests
-
-With the **book server** and **project server** still running, you can run some tests.
-
-I used **Cypress** for **E2E** tests. You can start them up with
-
-```bash
-npm run e2e-tests
-```
-
-and you can run some **Jest** **Unit** tests in the console with
-
-```bash
-npm run unit-tests
-```
