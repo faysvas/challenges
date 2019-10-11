@@ -7,7 +7,7 @@ npm install
 
 ### Compiles and hot-reloads for development
 ```
-npm run serve
+npm start
 ```
 
 ### Compiles and minifies for production
@@ -15,9 +15,18 @@ npm run serve
 npm run build
 ```
 
-### Run your tests
+With the **book server** and **project server** still running, you can run some tests.
+
+I used **Cypress** for **E2E** tests. You can start them up with
+
+```bash
+npm run e2e-tests
 ```
-npm run test
+
+and you can run some **Jest** **Unit** tests in the console with
+
+```bash
+npm run unit-tests
 ```
 
 ### Lints and fixes files
