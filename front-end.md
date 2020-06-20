@@ -62,7 +62,7 @@ If you have two-way data binding between numerous components in a large applicat
 
 ##### 2.5. Why is asynchronous programming important in JavaScript?
 
-**JavaScript** is mainly used for highly reactive web apps that include a lot of user interaction and run on all sorts of devices. The web involves a lot of delay and waiting (especially when you have a slow connection. With asynchronous programming, script execution doesn't need to be blocked while you're waiting for something that takes a lot of time, like a server or user response.  
+**JavaScript** is mainly used for highly reactive web apps that include a lot of user interaction and run on all sorts of devices. The web involves a lot of delay and waiting (especially when you have a slow connection). With asynchronous programming, script execution doesn't need to be blocked while you're waiting for something that takes a lot of time, like a server or user response.  
 So asynchronous programming allows you, for example, to fetch and display one paragraph of content for your user to read while the rest of the content is loading.  
 JavaScript is a synchronous, single-threaded language by default but various browser APIs provide us with the much needed asynchronicity.
 
