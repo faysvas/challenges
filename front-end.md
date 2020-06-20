@@ -40,12 +40,13 @@ while
 
 `innerHTML` can pose some security risks if you are posting user generated code so you should be sure to sanitize the text.
 
-Because `innerHTML` causes the user agent to do these steps
+Because `innerHTML` causes the user agent to do these steps:
 
 > -   The specified value is parsed as HTML or XML (based on the document type), resulting in a DocumentFragment object representing the new set of DOM nodes for the new elements.
 
--   If the element whose contents are being replaced is a <template> element, then the <template> element's content attribute is replaced with the new DocumentFragment created in step 1.
--   For all other elements, the element's contents are replaced with the nodes in the new DocumentFragment.
+> -   If the element whose contents are being replaced is a <template> element, then the <template> element's content attribute is replaced with the new DocumentFragment created in step 1.
+> -   For all other elements, the element's contents are replaced with the nodes in the new DocumentFragment.
+
 
 It may be better to user `createElement` because it preserves existing references to DOM elements and event handlers when appending elements.
 `createElement` may also be faster when adding a lot of elements, because the browser doesn't have to do all the steps described above.
