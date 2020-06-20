@@ -40,23 +40,22 @@ while
 
 `innerHTML` can pose some security risks if you are posting user generated code so you should be sure to sanitize the text.
 
-Because `innerHTML` causes the user agent to do these steps:
+Because `innerHTML` causes the user agent to follow these steps:
 
-> -   The specified value is parsed as HTML or XML (based on the document type), resulting in a DocumentFragment object representing the new set of DOM nodes for the new elements.
+> 1. The specified value is parsed as HTML or XML (based on the document type), resulting in a DocumentFragment object representing the new set of DOM nodes for the new elements.
 
-> -   If the element whose contents are being replaced is a <template> element, then the <template> element's content attribute is replaced with the new DocumentFragment created in step 1.
-> -   For all other elements, the element's contents are replaced with the nodes in the new DocumentFragment.
-
+> 2. If the element whose contents are being replaced is a <template> element, then the <template> element's content attribute is replaced with the new DocumentFragment created in step 1.
+> 3. For all other elements, the element's contents are replaced with the nodes in the new DocumentFragment.
 
 It may be better to user `createElement` because it preserves existing references to DOM elements and event handlers when appending elements.
 `createElement` may also be faster when adding a lot of elements, because the browser doesn't have to do all the steps described above.
 
 ##### 2.4. Compare two-way data binding vs one-way data flow.
 
--   **One-way data flow** means that the model is the single source of truth and data flows from the model to the view(UI).
+- **One-way data flow** means that the model is the single source of truth and data flows from the model to the view(UI).
     When the UI is changed (ex. through user input), an event is triggered that notifies the model of the change, and the model decides if it will change the app's state.
 
--   **Two-way data binding** means that the UI and model are connected and update each other automatically.
+- **Two-way data binding** means that the UI and model are connected and update each other automatically.
 
 Two-way data binding might seem more convenient (and require less code), but that is probably only true for connected elements in small, self-contained components. Two-way data binding between multiple components may cause confusion and be more difficult to debug, especially in larger applications.  
 If you have two-way data binding between numerous components in a large application, you can not be sure about the state in any given moment. Whereas with one-way data flow you just need to check your state object.
